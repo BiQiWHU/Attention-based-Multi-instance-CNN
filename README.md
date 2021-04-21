@@ -24,11 +24,17 @@ Numpy > 1.16
 # Implementation Details
 The implementation details are provided as below.
 
-- For MIL with DC-Net backbone,
+- For MIL with DC-Net backbone, the code can be directly implemented by following steps.
 
-- For MIL with Pre-trained AlexNet,
+Step1, download the image classification benchmarks, and put them in the same file direction path.
 
-- For MIL with Pre-trained VGG,
+Step2, run tfdata.py to generate the tfrecord format file for training and testing. Remember to re-set the input image size of your own dataset.
+
+Step3, 
+
+
+- For MIL with Pre-trained AlexNet or VGG,
+
 
 
 # References for Citation
@@ -50,7 +56,7 @@ If you find our project beneficial to your research, please remember to cite our
 
 # Other Resources
 
- - Implementation of dense connection structures:
+ - Self-implementation of dense connection structures:
 
 [1] https://github.com/BiQiWHU/DenseNet121-VHRRSI
 
