@@ -17,14 +17,19 @@ Python > 3.5
 
 Tensorflow > 1.6
 
-Opencv > 3
+OpenCV > 3
 
 Numpy > 1.16
 
 # Implementation Details
 The implementation details are provided as below.
 
-waiting to be updated.
+- For MIL with DC-Net backbone,
+
+- For MIL with Pre-trained AlexNet,
+
+- For MIL with Pre-trained VGG,
+
 
 # References for Citation
 If you find our project beneficial to your research, please remember to cite our below works from either deep MIL or dense connection CNN.
@@ -39,7 +44,7 @@ If you find our project beneficial to your research, please remember to cite our
 
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
-[2] Q Bi, K Qin, H Zhang, Z Li, K Xu. A residual attention based convolution network for aerial scene classification, Neurocomputing, 2020.
+[3] Q Bi, K Qin, H Zhang, Z Li, K Xu. A residual attention based convolution network for aerial scene classification, Neurocomputing, 2020.
 
 
 # Other Resources
@@ -53,3 +58,5 @@ If you find our project beneficial to your research, please remember to cite our
  - gated attention based deep MIL from ICML 2018:
 
 [3] https://github.com/AMLab-Amsterdam/AttentionDeepMIL 
+ - the original design of DenseNet:
+[4] https://github.com/liuzhuang13/DenseNet
