@@ -30,8 +30,11 @@ Step1, download the image classification benchmarks, and put them in the same fi
 
 Step2, run tfdata.py to generate the tfrecord format file for training and testing. Remember to re-set the input image size of your own dataset.
 
-Step3, 
+Step3, run DenseRS.py file to train your model. Generally, it needs to run three times, for second time and third time, the initial parameters from the last round needs to be reloaded, and the learning rate of the later round should be one tenth of the former one. Remember to adjust to other hyper-parameters according to your onw dataset. 
 
+Step4, run test.py for test accuracy report.
+
+Generally speaking, the advantage of MIL with DC-Net backbone is its light-weight model, little prediction time and computation cost. However, its feature representation capability is usually weaker than models pre-trained from ImageNet. 
 
 - For MIL with Pre-trained AlexNet or VGG,
 
