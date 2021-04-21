@@ -36,7 +36,9 @@ Step4, run test.py for test accuracy report.
 
 Generally speaking, the advantage of MIL with DC-Net backbone is its light-weight model, little prediction time and computation cost. However, its feature representation capability is usually weaker than models pre-trained from ImageNet. 
 
-- For MIL with Pre-trained AlexNet or VGG,
+- For MIL with Pre-trained AlexNet or VGG, an additional step is needed at first so as to download the pre-trained model, which can be found here: https://github.com/tensorflow/models/tree/master/research/slim
+
+
 
 
 
