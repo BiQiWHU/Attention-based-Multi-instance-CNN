@@ -26,20 +26,29 @@ The implementation details are provided as below.
 
 - For MIL with DC-Net backbone, the code can be directly implemented by following steps.
 
-Step1, download the image classification benchmarks, and put them in the same file direction path.
+Step 1, download the image classification benchmarks, and put them in the same file direction path.
 
-Step2, run tfdata.py to generate the tfrecord format file for training and testing. Remember to re-set the input image size of your own dataset.
+Step 2, run tfdata.py to generate the tfrecord format file for training and testing. Remember to re-set the input image size of your own dataset.
 
-Step3, run DenseRS.py file to train your model. Generally, it needs to run three times, for second time and third time, the initial parameters from the last round needs to be reloaded, and the learning rate of the later round should be one tenth of the former one. Remember to adjust to other hyper-parameters according to your onw dataset. 
+Step 3, run DenseRS.py file to train your model. Generally, it needs to run three times, for second time and third time, the initial parameters from the last round needs to be reloaded, and the learning rate of the later round should be one tenth of the former one. Remember to adjust to other hyper-parameters according to your onw dataset. 
 
-Step4, run test.py for test accuracy report.
+Step 4, run test.py for test accuracy report.
 
 Generally speaking, the advantage of MIL with DC-Net backbone is its light-weight model, little prediction time and computation cost. However, its feature representation capability is usually weaker than models pre-trained from ImageNet. 
 
 - For MIL with Pre-trained AlexNet or VGG, an additional step is needed at first so as to download the pre-trained model, which can be found here: https://github.com/tensorflow/models/tree/master/research/slim
 
+Then, it is also a four-step process to run the code.
 
+Step 1, download the image classification benchmarks, and put them in the same file direction path.
 
+Step 2, run tfdata.py to generate the tfrecord format file for training and testing. Remember to re-set the input image size of your own dataset.
+
+Step 3, run train_cam.py file to train your model. Remember to adjust to other hyper-parameters according to your onw dataset. 
+
+Step 4, run test.py for test accuracy report.
+
+The advantage to utilize pre-trained model as the initial parameters for deep MIL is it has stronger feature representation capability, and leads to higher performance. But, the model size and prediction time increases.
 
 
 # References for Citation
