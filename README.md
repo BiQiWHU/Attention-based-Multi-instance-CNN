@@ -11,9 +11,15 @@ This Github project is a summarization of our former works, and we provided thre
  - AlexNet with pre-trained parameters on ImageNet
  - VGG-16 with pre-trained parameters on ImageNet.
 
-# Develop Environment
+# Developing Environment
 
-waiting to be updated. 
+Python > 3.5
+
+Tensorflow > 1.6
+
+opencv>3
+
+numpy>1.16
 
 # Implementation Details
 The implementation details are provided as below.
@@ -23,13 +29,13 @@ waiting to be updated.
 # References for Citation
 If you find our project beneficial to your research, please remember to cite our below works from either deep MIL or dense connection CNN.
 
-Deep MIL:
+ - Deep MIL
 
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
 [2] Z Li, K Xu, J Xie, Q Bi, K Qin. Deep multiple instance convolutional neural networks for learning robust scene representations. TGRS, 2020.
 
-Light-weight dense connection structure:
+ - Light-weight dense connection structure:
 
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
