@@ -13,6 +13,17 @@ The implementation details are provided as below.
 
 waiting to be updated.
 
+# other resources
+implementation of dense connection structures:
+
+[1] https://github.com/BiQiWHU/DenseNet121-VHRRSI
+
+[2] https://github.com/BiQiWHU/DenseNet40-for-HRRSISC
+
+gated attention based deep MIL from ICML 2018:
+
+[1] https://github.com/AMLab-Amsterdam/AttentionDeepMIL 
+
 # references for citation
 If you find our project beneficial to your research, please remember to cite our below works from either deep MIL or dense connection CNN.
 
