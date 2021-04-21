@@ -17,17 +17,6 @@ The implementation details are provided as below.
 
 waiting to be updated.
 
-# other resources
-implementation of dense connection structures:
-
-[1] https://github.com/BiQiWHU/DenseNet121-VHRRSI
-
-[2] https://github.com/BiQiWHU/DenseNet40-for-HRRSISC
-
-gated attention based deep MIL from ICML 2018:
-
-[1] https://github.com/AMLab-Amsterdam/AttentionDeepMIL 
-
 # references for citation
 If you find our project beneficial to your research, please remember to cite our below works from either deep MIL or dense connection CNN.
 
@@ -42,3 +31,15 @@ Light-weight dense connection structure:
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
 [2] Q Bi, K Qin, H Zhang, Z Li, K Xu. A residual attention based convolution network for aerial scene classification, Neurocomputing, 2020.
+
+
+# Other Resources
+## Implementation of dense connection structures:
+
+[1] https://github.com/BiQiWHU/DenseNet121-VHRRSI
+
+[2] https://github.com/BiQiWHU/DenseNet40-for-HRRSISC
+
+## Gated attention based deep MIL from ICML 2018:
+
+[3] https://github.com/AMLab-Amsterdam/AttentionDeepMIL 
