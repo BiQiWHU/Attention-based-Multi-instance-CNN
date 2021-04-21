@@ -17,9 +17,9 @@ Python > 3.5
 
 Tensorflow > 1.6
 
-opencv>3
+Opencv > 3
 
-numpy>1.16
+Numpy > 1.16
 
 # Implementation Details
 The implementation details are provided as below.
