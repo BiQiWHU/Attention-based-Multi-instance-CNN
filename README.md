@@ -38,13 +38,15 @@ If you find our project beneficial to your research, please remember to cite our
 
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
-[2] Z Li, K Xu, J Xie, Q Bi, K Qin. Deep multiple instance convolutional neural networks for learning robust scene representations. TGRS, 2020.
+[2] Q Bi, K Qin, Z Li, H Zhang, K Xu. Multiple instance dense connected convolution neural network for aerial image scene classification. ICIP, 2019.
+
+[3] Z Li, K Xu, J Xie, Q Bi, K Qin. Deep multiple instance convolutional neural networks for learning robust scene representations. TGRS, 2020.
 
  - Light-weight dense connection structure:
 
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
-[3] Q Bi, K Qin, H Zhang, Z Li, K Xu. A residual attention based convolution network for aerial scene classification, Neurocomputing, 2020.
+[4] Q Bi, K Qin, H Zhang, Z Li, K Xu. A residual attention based convolution network for aerial scene classification, Neurocomputing, 2020.
 
 
 # Other Resources
@@ -58,5 +60,7 @@ If you find our project beneficial to your research, please remember to cite our
  - gated attention based deep MIL from ICML 2018:
 
 [3] https://github.com/AMLab-Amsterdam/AttentionDeepMIL 
- - the original design of DenseNet:
+
+- the original design of DenseNet:
+
 [4] https://github.com/liuzhuang13/DenseNet
