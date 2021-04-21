@@ -34,12 +34,12 @@ Light-weight dense connection structure:
 
 
 # Other Resources
-## Implementation of dense connection structures:
+### Implementation of dense connection structures:
 
 [1] https://github.com/BiQiWHU/DenseNet121-VHRRSI
 
 [2] https://github.com/BiQiWHU/DenseNet40-for-HRRSISC
 
-## Gated attention based deep MIL from ICML 2018:
+### Gated attention based deep MIL from ICML 2018:
 
 [3] https://github.com/AMLab-Amsterdam/AttentionDeepMIL 
