@@ -8,6 +8,10 @@ In the past few years, we have studied deep MIL and explored a variety of soluti
 
 This Github project is a summarization of our former works, and we provided three types of MI-CNN on the backbone of: (1) our designed light-weight DenseNet structure, (2) AlexNet with pre-trained parameters on ImageNet, and (3) VGG-16 with pre-trained parameters on ImageNet.
 
+# develop enviroment
+
+waiting to be updated. 
+
 # implementation details
 The implementation details are provided as below.
 
