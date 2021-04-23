@@ -61,7 +61,7 @@ If you find our project beneficial to your research, please remember to cite our
 [2] Q Bi, K Qin, Z Li, H Zhang, K Xu. Multiple instance dense connected convolution neural network for aerial image scene classification. ICIP, 2019.
 
 
- - Light-weight dense connection structure:
+ - Light-weight dense connection structure
 
 [1] Qi Bi, Kun Qin, Zhili Li, Han Zhang, Kai Xu, Gui-Song Xia. A multiple-instance densely-connected ConvNet for aerial scene classification. TIP, 2020.
 
