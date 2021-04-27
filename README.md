@@ -4,7 +4,7 @@ Spatial/Channel-spatial attention based multi-instance CNN for image classificat
 # Brief Introduction
 The combination of multiple instance learning and ConvNets in a trainable manner, also known as deep MIL, has drawn increasing attention in the past few years.
 
-In the past few years, we have studied deep MIL and explored a variety of solutions to adapt MIL into existing ConvNets.
+We have studied deep MIL and explored a variety of solutions to adapt MIL into existing ConvNets.
 
 This Github project is a summarization of our former works, and we provided three types of MI-CNN on the backbone of:
  - Our designed light-weight DenseNet structure
