@@ -10,6 +10,10 @@ This Github project is a summarization of our former works, and we provided thre
  - Our designed light-weight DenseNet structure
  - AlexNet with pre-trained parameters on ImageNet
  - VGG-16 with pre-trained parameters on ImageNet
+ 
+ An overview of the proposed framework is attached as below.
+ 
+ ![avatar](/3.jpg)
 
 # Developing Environment
 
